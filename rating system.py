@@ -6,7 +6,7 @@ while True:
 	a = int(input("\n Give your Rating under 1 to 5 : ")) 
 	# validate input
 	if a in range(1, 6):
-		b += 1				     # increment reviews
+		b += 1	              # increment reviews
 		d = (a + c)/b         #  calculate rating 
 		# print rating and reviews
 		print("\n Rating☆ : ", d,"\t  reviews : ", b)
